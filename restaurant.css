@@ -1,0 +1,335 @@
+*{
+    box-sizing: border-box;
+    border:0;
+    margin:0;
+}
+
+[class*="col-"]{
+    width:100%;
+}
+/*---------------------------------------------
+        Header Section Start
+----------------------------------------------*/
+
+/*------------------------
+    Header Nav-Logo
+------------------------*/
+
+.logo-nav-section{
+background-color:#29A7A1;
+padding: 40px;
+text-align: center;
+
+}
+
+
+.header-logo i{
+font-size:55px;
+color: white;
+border: 2px solid white;
+border-radius: 50px;
+padding: 15px;
+
+}
+
+
+.header-nav a{
+text-decoration:none;
+display: block;
+margin:40px 7px;
+font-size: 26px;
+background-color: #1f4745;
+color: white;
+border-radius: 20px;
+padding: 5px;
+transition: 2s;
+
+}
+
+.header-nav a:hover{
+    background-color:teal;
+    color: black;
+}
+
+
+
+
+.logo-nav-section::after{
+    content: '';
+    display:table;
+    clear:both;
+}
+
+
+
+/*---------------------------------------------
+        Header Section end
+----------------------------------------------*/
+
+
+
+/*---------------------------------------------
+        main Section start
+----------------------------------------------*/
+
+/*------------------------
+    Banner Section Start
+------------------------*/
+
+.banner-section{
+    background-image: url(image/restaurant.jpg);
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding:20px;
+    background-position: center;
+}
+
+.banner-text{
+    text-align: center;
+    padding:80px 0px;
+}
+
+.banner-text h1{
+ font-family: 'Lobster', cursive;
+ padding: 10px;
+ padding-bottom: 30px;
+ color: rgb(0, 0, 0);
+ font-size: 40px;
+ background-color: #FCFA1A;
+ border-radius: 10px;
+ opacity: 0.6;
+ text-transform: capitalize;
+}
+
+.banner-text p{
+    padding: 10px;
+    background-color:#017800;
+    margin: 20px;
+    border-radius: 10px;
+    opacity: 0.7;
+    font-weight: bold;
+    font-size: 25px;
+    color: white;
+    text-transform: capitalize;
+}
+
+.banner-text button{
+    padding: 15px 35px;
+    border:none;
+    font-size: 23px;
+    background-color: #98694F;
+    color: white;
+    text-transform: uppercase;
+    border-radius: 10px;
+    cursor: pointer;
+    transition-property:font-size;
+    transition-duration:3s;
+}
+
+.banner-text button:hover{
+    background-color: #a76847;
+    font-size:25px;
+}
+    
+
+
+.banner-section::after{
+    content: '';
+    display: block;
+    clear: both;
+}
+
+
+
+/*----------------------------
+    About us Section Start
+----------------------------*/
+
+.about-section{
+    text-align: center;
+    padding: 8px;
+    font-family: 'STIX Two Text', serif;
+}
+
+.about-section h2{
+    font-size:35px;
+    margin:10px 4px;
+}
+
+.about-section p{
+   line-height: -10px;
+   font-size: 15px;
+}
+
+
+
+/*-----------------------------------
+        Menu Section Start
+-------------------------------------*/
+
+
+.menu-section{
+    padding:1%;
+}
+
+.menu-item{
+    padding:12px;
+    text-align: center;
+   
+}
+
+.card{
+    transition: 4s;
+}
+
+.card:hover{
+    transform: scale(1.1);
+}
+
+.meu-item-img img{
+    max-width: 100%;
+    height:auto; 
+    display: block;
+    border-top-left-radius: 8px;
+    border-top-right-radius: 8px;
+       
+}
+
+.menu-item-dis{
+    background-color:#F6F8F7;
+    padding:10px;
+    border-bottom-left-radius: 8px;
+    border-bottom-right-radius: 8px;
+}
+
+.menu-item-dis h3{
+   background-color:#BC9B5E;
+   padding: 8px;
+   margin: 10px;
+   border-radius:10px;
+   font-size:27px;
+   color: white;
+}
+
+.menu-item-dis > p{
+    padding: 8px;
+    font-size: 18px;
+}
+
+.menu-item-dis i{
+    color:#FFC100;
+    font-size: 17px;
+}
+
+
+
+.menu-section::after{
+    content: '';
+    display: block;
+    clear: both;
+}
+
+
+/*-----------------------------
+    contact us details start
+------------------------------*/
+.contact-detals{
+    padding: 2%;
+    background-color: #5A5C84;
+}
+.contact{
+text-align: center;
+color: white;
+}
+
+.map2{
+max-width: 100%;
+height:350px;
+}
+
+.contact-text{
+    padding-top:20px;
+}
+
+.contact-text h4{
+    font-size:28px;
+}
+
+.contact-text h5{
+    font-size:22px;
+}
+
+
+.contact-detals::after{
+    content: '';
+    display: block;
+    clear: both;
+}
+
+
+
+
+
+/*---------------------------------------------
+        main Section end
+----------------------------------------------*/
+
+/*---------------------------------------------
+                Fotter Section start
+-----------------------------------------------*/
+.contaner-footer{
+background-color: #06082A;
+padding:50px;
+color:rgb(255, 254, 254);
+text-align: center
+}
+
+.copy p{
+padding:10px 0px;
+font-size: 15px;
+}
+
+.arror{
+    margin:10px 0px;
+}
+
+.arror button{
+    padding:10px;
+    background-color:#06082A;
+    border:1px solid white;
+    border-radius:40px;
+}
+
+.arror button, a{
+    color:white;
+}
+
+.social-media button{
+    padding:10px;
+    background-color:#080a35;
+    color: white;
+    font-size: 20px;
+    margin: 10px;
+    border-radius: 40px;
+    border:1px solid white;
+    transition: 3s;
+}
+
+.social-media button:hover{
+    transform: scale(1.1);
+}
+
+
+
+
+.contaner-footer::after{
+    content: '';
+    display: block;
+    clear: both;
+}
+
+
+/*---------------------------------------------
+                Fotter Section start
+-----------------------------------------------*/
